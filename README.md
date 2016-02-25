@@ -7,3 +7,24 @@ Script php pour récupérer sur eedomus les informations techniques de sa livebo
 script créé par twitter:@Havok et modifié par @nono1024 pour la eedomus
 
 NB : Script à installer sur l'eedomus elle-même
+
+## Installation
+## Configuration
+## Paramètres
+- wifistate
+- lanstate
+- dslstate
+- users
+- iplan
+- ipwan
+- wanstate
+- phonestate
+- tvstate
+- hosts
+- reboot
+- wifion
+- wifioff
+- mibs
+- macoff
+- macon
+- dslinfo
