@@ -61,10 +61,8 @@ http://localhost/script/?exec=livebox.php&action=wanstate
 Affiche l'état du lien WAN de la box
 - Xpath : //root/result/status
 - Résultat : 1 pour activé, 0 pour non actif
-
 - Xpath :  //root/result/data/LinkType
 - Résultat : vdsl pour moi mais adsl je suppose comme autre choix
-
 - Xpath :  //root/result/data/LinkState
 - Résultat : up pour connecté et down (je suppose) pour non connecté
 
@@ -74,7 +72,6 @@ D'autre infos dispo mais je les détaillerai pas  :D
 Affiche l'état de la TOIP
 - Xpath : //root/result/status/status/enable
 - Résultat : enable ou disabled
-
 - Xpath : //root/result/status/status/trunk_lines/status/status
 - Résultat : up ou down
 
