@@ -32,8 +32,9 @@ Donne l'état du wifi.
 - Xpath : //root/result/status/Enable
 - Résultat : 1 pour activé, et 0 pour désactivé
 
-
-    http://localhost/script/?exec=livebox.php&action=lanstate
+```
+http://localhost/script/?exec=livebox.php&action=lanstate
+```
 Donne l'état du LanJe vous laisse regarder pour le Xpath, plein de résultat dispo (@MAC, status des 4 interfaces....)
 
     http://localhost/script/?exec=livebox.php&action=dslstate
@@ -43,26 +44,26 @@ Donne l'état des compteurs du lien DSL (erreurs....). Pareil je vous laisse reg
 Affiche les différents users configuré. Pareil je vous laisse regarder pas mal de choix en retour
 
     http://localhost/script/?exec=livebox.php&action=iplan
-- Affiche l'@IP lan de la box
+Affiche l'@IP lan de la box
 - xpath : //root/result/status
 - Résultat : l'@IP lan
 
-
-    http://localhost/script/?exec=livebox.php&action=ipwan
+```
+http://localhost/script/?exec=livebox.php&action=ipwan
+```
 - Affiche l'@IP wan de la box
 - Xpath : //root/result/status
 - Résultat : l'@IP wan
 
-
-    http://localhost/script/?exec=livebox.php&action=wanstate
-- Affiche l'état du lien WAN de la box
+```
+http://localhost/script/?exec=livebox.php&action=wanstate
+```
+Affiche l'état du lien WAN de la box
 - Xpath : //root/result/status
 - Résultat : 1 pour activé, 0 pour non actif
 
-
 - Xpath :  //root/result/data/LinkType
 - Résultat : vdsl pour moi mais adsl je suppose comme autre choix
-
 
 - Xpath :  //root/result/data/LinkState
 - Résultat : up pour connecté et down (je suppose) pour non connecté
@@ -73,7 +74,6 @@ D'autre infos dispo mais je les détaillerai pas  :D
 Affiche l'état de la TOIP
 - Xpath : //root/result/status/status/enable
 - Résultat : enable ou disabled
-
 
 - Xpath : //root/result/status/status/trunk_lines/status/status
 - Résultat : up ou down
@@ -105,6 +105,5 @@ Active le filtrage par @MAC du Wifi de la livebox
 Désactive le filtrage par @MAC du Wifi de la livebox
 
     http://localhost/script/?exec=livebox.php&action=dslinfo
-- Xpath : //root/result/status/dsl/dsl0/DownstreamCurrRate
-
 Retourne le débit descendant
+- Xpath : //root/result/status/dsl/dsl0/DownstreamCurrRate
