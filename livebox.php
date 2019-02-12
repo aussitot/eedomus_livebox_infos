@@ -3,7 +3,7 @@
 // paramètres
 $myhost = "192.168.1.1"; //adresse IP de votre livebox sur le réseau local
 $myusername = "admin"; //login pour accéder à la console d'administration de la livebox
-$mypassword = "mdpadefinir"; //password pour accéder à la console d'administration de la livebox.
+$mypassword = "mdpadefinir"; //password pour accéder à la console d'administration de la livebox
 
 // authentification
 $headers = array("Content-Type: application/json");
